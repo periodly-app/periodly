@@ -33,7 +33,7 @@ open "/Users/Paul/Documents/Claude/Projects/App Periode/cycle-reminder/dist"
 ```
 
 ### Schritt 5 — Netlify Redeploy
-- app.netlify.com → Projekt `glistening-gumption-543ba7`
+- app.netlify.com → Projekt `periodlytracking`
 - `dist`-Ordner auf "Drag and drop your project folder here" ziehen
 - Warten bis deployed
 
@@ -41,7 +41,7 @@ open "/Users/Paul/Documents/Claude/Projects/App Periode/cycle-reminder/dist"
 
 ## Nach dem Deploy testen
 
-1. iPhone → Safari → https://glistening-gumption-543ba7.netlify.app
+1. iPhone → Safari → https://periodlytracking.netlify.app
 2. Alten Homescreen-Icon löschen (langes Drücken → entfernen)
 3. Teilen → "Zum Home-Bildschirm" → neue Version hinzufügen
 4. App öffnen → 🔔 "Enable reminders" tippen → Erlauben
@@ -61,4 +61,4 @@ Die App sendet Notifications wenn:
 ---
 
 ## Netlify URL
-https://glistening-gumption-543ba7.netlify.app
+https://periodlytracking.netlify.app
