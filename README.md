@@ -4,17 +4,20 @@ A minimalist period tracking PWA — one tap, fully private, no account required
 
 **[→ Try it live](https://periodlytracking.netlify.app)**
 
+<img src="public/screenshot.png" alt="Periodly App Screenshot" width="300">
+
 ---
 
 ## Why Periodly?
 
-Most period tracking apps require an account, upload your health data to the cloud, and are bloated with features. Periodly does one thing: it reminds you to track your period, and it does it with a single tap.
+Most period tracking apps require an account, upload your health data to the cloud, and are bloated with features. Periodly does one thing well: it reminds you before your period arrives — and it learns your cycle automatically.
 
-- **One tap** to log your period start
-- **No account** — nothing to sign up for
-- **No cloud** — all data stays on your device
-- **Push notifications** — real reminders even when the app is closed
-- **Free** — no subscription, no ads
+- **One tap** to log your period start — that's it
+- **Learns your cycle** — adapts notification timing automatically based on your history
+- **Real push notifications** — reminds you even when the app is closed, no need to open it first
+- **No account** — nothing to sign up for, ever
+- **No cloud** — all period data stays on your device (IndexedDB)
+- **Free** — no subscription, no ads, no tracking
 
 ---
 
@@ -44,7 +47,7 @@ Most period tracking apps require an account, upload your health data to the clo
 **Requirements:** Node.js 18+
 
 ```bash
-git clone https://github.com/your-username/periodly.git
+git clone https://github.com/periodly-app/periodly.git
 cd periodly
 npm install
 npm run dev
@@ -107,6 +110,14 @@ Drag the `dist` folder to Netlify Drop, or use Netlify's continuous deployment.
 All period data is stored **locally on your device** using IndexedDB. Nothing is ever sent to a server.
 
 The only data stored server-side is your push notification token and the date of your next expected notification — no health data, no personal information.
+
+---
+
+## Support
+
+Periodly is free and will stay free. If you find it useful, a coffee helps keep the server running!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=flat&logo=buy-me-a-coffee)](https://buymeacoffee.com/maxelfy)
 
 ---
 
