@@ -1,0 +1,19 @@
+[build]
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# SPA: alle Routen -> index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# API-Routen nicht redirecten
+[[redirects]]
+  from = "/api/*"
+  to = "/api/:splat"
+  status = 200
+  force = true

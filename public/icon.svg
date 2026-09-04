@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Hintergrund -->
+  <rect width="512" height="512" rx="112" fill="#FFF0EC"/>
+  <!-- Großer Kreis (Button-Symbol) -->
+  <circle cx="256" cy="220" r="130" fill="#F4A4A4"/>
+  <!-- Tropfen oben -->
+  <ellipse cx="256" cy="130" rx="28" ry="38" fill="#E07070"/>
+  <!-- P für Periodly -->
+  <text x="256" y="245" font-family="-apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="96" font-weight="700" fill="white"
+    text-anchor="middle" dominant-baseline="middle">P</text>
+  <!-- Welle unten -->
+  <path d="M100 370 Q175 340 256 370 Q337 400 412 370 L412 420 Q337 450 256 420 Q175 390 100 420 Z"
+    fill="#F4A4A4" opacity="0.5"/>
+</svg>
